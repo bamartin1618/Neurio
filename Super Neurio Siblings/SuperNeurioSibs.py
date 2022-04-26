@@ -125,8 +125,6 @@ class Neurio:
                 sniff_sound.play()
                 self.score += rewards[agonist_names[agonist.index]]
                 
-                print(self.score)
-                
                 agonists.pop(index)
                 
         for index, antagonist in enumerate(antagonists):
