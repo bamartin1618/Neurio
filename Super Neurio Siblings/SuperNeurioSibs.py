@@ -51,10 +51,10 @@ rewards = {
 }
 
 
-sound = pygame.mixer.Sound("NeurioTheme.ogg")
-punch_sound = pygame.mixer.Sound("NeurioPunch.mp3")
-sniff_sound = pygame.mixer.Sound("NeurioSniff.ogg")
-end_theme = pygame.mixer.Sound("NeurioEndTheme.mp3")
+sound = pygame.mixer.Sound(os.path.join(sys.path[0], "NeurioTheme.ogg"))
+punch_sound = pygame.mixer.Sound(os.path.join(sys.path[0], "NeurioPunch.mp3"))
+sniff_sound = pygame.mixer.Sound(os.path.join(sys.path[0], "NeurioSniff.ogg"))
+
 
 class Neurio:
     
