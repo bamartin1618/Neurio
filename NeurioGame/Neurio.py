@@ -253,7 +253,6 @@ princess = Princess(screen_width, screen_height-290, 2)
 wall = Wall(screen_width - 200, 20, 5)
 
 user_password = ''
-true_password = 'gspcamdsngm'
 
 def main():
     
@@ -381,7 +380,7 @@ def main():
             
             if len(user_password) >= len(true_password):
                 
-                if user_password[-len(true_password):] == true_password:
+                if user_password[-len(true_password):] == 'gspcamdsngm':
                     wall.rising = True
     
             if wall.rising == True and wall.height < 20:
